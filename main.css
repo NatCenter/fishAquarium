@@ -1,0 +1,67 @@
+h1{
+    background-color:red;
+    color:white;
+    text-align: center;
+}
+
+
+.mainClass{
+    display:flex;
+
+}
+ol{
+    padding-top:0;
+    margin-top: 0;
+    
+}
+
+    
+.content__fish-list{
+    background-color: pink;
+   padding: 50px;
+   margin-bottom: 20px;
+   
+   
+}
+
+.content__quote-list{
+    background-color: lightgreen;
+   padding: 50px;
+   margin-bottom: 20px;
+}
+.content__fish-list span{
+    background-color:orange;
+   margin: 10px;
+   padding: 10px;
+}
+.content__quote-list span{
+    background-color:yellowgreen;
+   margin: 10px;
+   padding: 10px;
+
+}
+.content__location-list{
+    background-color: violet;
+    padding: 50px ;
+    margin-bottom: 20px;
+}
+.content__location-list span{
+    background-color:purple;
+    margin: 10px;
+    padding: 10px;
+}
+.content_fish_tips{
+    background-color: lightseagreen;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+
+.content_fish_tips li{
+    background-color: orangered;
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 10px;
+    margin-right: 10px;
+}
