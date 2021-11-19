@@ -8,6 +8,13 @@ h1{
 .mainClass{
     display:flex;
 
+
+
+}
+.content{
+    margin: auto;
+    max-width: 900px;
+    
 }
 ol{
     padding-top:0;
@@ -20,21 +27,22 @@ ol{
     background-color: pink;
    padding: 50px;
    margin-bottom: 20px;
+   flex: 7;
    
    
 }
-
+.content__fish-list div{
+    background-color:orange;
+   margin: 10px;
+   padding: 10px;
+}
 .content__quote-list{
     background-color: lightgreen;
    padding: 50px;
    margin-bottom: 20px;
 }
-.content__fish-list span{
-    background-color:orange;
-   margin: 10px;
-   padding: 10px;
-}
-.content__quote-list span{
+
+.content__quote-list div{
     background-color:yellowgreen;
    margin: 10px;
    padding: 10px;
@@ -45,7 +53,7 @@ ol{
     padding: 50px ;
     margin-bottom: 20px;
 }
-.content__location-list span{
+.content__location-list div{
     background-color:purple;
     margin: 10px;
     padding: 10px;
@@ -55,6 +63,7 @@ ol{
     padding: 20px;
     margin-bottom: 20px;
     margin-left: 5px;
+    flex: 1;
 }
 
 
